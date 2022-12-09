@@ -1,0 +1,31 @@
+//Add products in product table
+
+// curl --location --request POST 'http://localhost:3000/api/v1/products/addproduct' \
+// --header 'Content-Type: application/json' \
+// --data-raw '{
+//     "title":"redmi 7 pro",
+//     "price":20000,
+//     "description":"Smart phone from Redme",
+//     "published":true
+// }'
+
+
+//Get all the products from product table
+//curl --location --request GET 'http://localhost:3000/api/v1/products/allproducts'
+
+//Get particular product using id
+//curl --location --request GET 'http://localhost:3000/api/v1/products/3'
+
+//Get published products
+//curl --location --request GET 'http://localhost:3000/api/v1/products/published'
+
+//Delete the product using id
+//curl --location --request DELETE 'http://localhost:3000/api/v1/products/1'
+
+//Updates the product
+// curl --location --request PUT 'http://localhost:3000/api/v1/products/1' \
+// --header 'Content-Type: application/json' \
+// --data-raw '{
+//     "title":"Nokia"
+// }'
+
